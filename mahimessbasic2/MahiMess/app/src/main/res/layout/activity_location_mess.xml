@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="4000dp"
+    tools:context="com.example.bmrd.mahimess.LocationMessActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="4800dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textOther"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/textDistance"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <ImageView
+                android:id="@+id/imageMess"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textOther"
+                app:srcCompat="@drawable/common_full_open_on_phone" />
+
+
+            <TextView
+                android:id="@+id/textSpace"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textName1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textOther1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textDistance1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button1" />
+
+
+            <ImageView
+                android:id="@+id/imageMess1"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textOther"
+                app:srcCompat="@drawable/common_full_open_on_phone" />
+
+
+            <TextView
+                android:id="@+id/textSpace1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textName2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textOther2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textDistance2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button2" />
+
+
+            <ImageView
+                android:id="@+id/imageMess2"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textOther"
+                app:srcCompat="@drawable/common_full_open_on_phone" />
+
+
+            <TextView
+                android:id="@+id/textSpace2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textName3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textOther3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textDistance3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button3" />
+
+
+            <ImageView
+                android:id="@+id/imageMess3"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textOther"
+                app:srcCompat="@drawable/common_full_open_on_phone" />
+
+
+            <TextView
+                android:id="@+id/textSpace3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textName4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textOther4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textDistance4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button4" />
+
+
+            <ImageView
+                android:id="@+id/imageMess4"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textOther"
+                app:srcCompat="@drawable/common_full_open_on_phone" />
+
+
+            <TextView
+                android:id="@+id/textSpace4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textName5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textOther5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textDistance5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button5" />
+
+
+            <ImageView
+                android:id="@+id/imageMess5"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textOther"
+                app:srcCompat="@drawable/common_full_open_on_phone" />
+
+
+            <TextView
+                android:id="@+id/textSpace5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textName6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textOther6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textDistance6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button6" />
+
+
+            <ImageView
+                android:id="@+id/imageMess6"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textOther"
+                app:srcCompat="@drawable/common_full_open_on_phone" />
+
+
+            <TextView
+                android:id="@+id/textSpace6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textName7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textOther7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textDistance7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button7" />
+
+
+            <ImageView
+                android:id="@+id/imageMess7"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textOther"
+                app:srcCompat="@drawable/common_full_open_on_phone" />
+
+
+            <TextView
+                android:id="@+id/textSpace7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textName8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textOther8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textDistance8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button8" />
+
+
+            <ImageView
+                android:id="@+id/imageMess8"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textOther"
+                app:srcCompat="@drawable/common_full_open_on_phone" />
+
+
+            <TextView
+                android:id="@+id/textSpace8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textName9"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textOther9"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textDistance9"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button9" />
+
+
+            <ImageView
+                android:id="@+id/imageMess9"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textOther"
+                app:srcCompat="@drawable/common_full_open_on_phone" />
+
+
+            <TextView
+                android:id="@+id/textSpace9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textName"
+                android:textSize="25sp" />
+
+
+            <ListView
+                android:id="@+id/listViewMesses"
+                android:layout_width="match_parent"
+                android:layout_height="2000dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="0dp"
+                android:layout_marginEnd="14dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
